@@ -149,14 +149,6 @@ foreach ($Computer in $Computers)
                 $textbox2_Result.AppendText("`n$Computer - Copy Failed")} #-foregroundcolor Red
             else {$textbox2_Result.AppendText("`n$Computer - Successful")} #-foregroundcolor Green
     }
- {#Test for color           
-#            if(-not $?) {
-#                $Textbox2_result.forecolor = "Red"
-#                $textbox2_Result.AppendText("`n$Computer - Copy Failed")} #-foregroundcolor Red
-#            else {
-#                $TextBox2_result.forecolor = "Green"
-#            $textbox2_Result.AppendText("`n$Computer - Successful")} #-foregroundcolor Green
-#    }
  }
  
  }
