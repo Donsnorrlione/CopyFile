@@ -1,1 +1,1 @@
-powershell.exe -windowstyle hidden \\wdserver\groups\IS\Helpdesk\Snorri\Scripts\CopyFile\copyfile_Gui.PS1
+powershell.exe -windowstyle hidden .\copyfile_Gui.PS1
